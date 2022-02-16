@@ -54,6 +54,21 @@
 
 --------------------------------------------------------*/
 /* P  */
+.nanum{
+  font-family:'Nanum Gothic', sans-serif;
+  font-weight: 500;
+  
+}
+input{
+  font-family:'Nanum Gothic', sans-serif;
+  font-weight: 800;
+  
+}
+textarea{
+  font-family:'Nanum Gothic', sans-serif;
+  font-weight: 800;
+  
+}
 .Livvic{
   font-family:'Nanum Gothic', sans-serif;
   font-style: bold;
@@ -392,7 +407,7 @@ ul {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 100px 60px 700px 50px;
+  padding: 100px 60px 780px 50px;
   border-radius: 10px 10px 10px 10px;
 }
 .bg10 {
@@ -3598,6 +3613,7 @@ body .search-modal .close:hover {
   margin: 0;
   z-index: 999;
   width: 100%;
+  height: 75px;
   top: 0;
   position: relative;
 }
