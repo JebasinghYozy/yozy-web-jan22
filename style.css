@@ -1204,12 +1204,14 @@ font-size: 16px;
 }
 .readon.started {
   padding: 14px 40px 14px 40px;
-  background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+  /* background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%); */
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   color: #F0F5FF;
   border-radius: 30px 30px 30px 30px;
 }
 .readon.started:hover {
-  background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+  /* background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%); */
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   color: #ffffff;
 }
 .readon.started.get-new:hover {
@@ -1787,7 +1789,8 @@ font-size: 16px;
   color: #f2541b;
 }
 .rs-videos .animate-border .popup-border {
-  background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%);
+  /* background-image: linear-gradient(250deg, #4e95ed 19%, #03228f 100%); */
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -1806,7 +1809,9 @@ font-size: 16px;
 }
 .rs-videos .animate-border .popup-border:before {
   content: "";
-  border: 2px solid #3110ea;
+  /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%); */
+  /* border: 2px solid #3110ea; */
+  border: 2px solid #30CFD0;
   position: absolute;
   z-index: 0;
   left: 50%;
@@ -1822,7 +1827,9 @@ font-size: 16px;
 }
 .rs-videos .animate-border .popup-border:after {
   content: "";
-  border: 2px solid #7197e7;
+  
+  border: 2px solid #2b9797;
+  /* border: 2px solid #7197e7; */
   position: absolute;
   z-index: 0;
   left: 50%;
@@ -2430,7 +2437,7 @@ font-size: 16px;
 }
 .full-width-header .rs-header .topbar-area .rs-contact-info .contact-part i:before {
   font-size: 20px;
-  color: #ffa500;
+  color: #0275d8;
 }
 .full-width-header .rs-header .topbar-area .rs-contact-info .contact-part .contact-info {
   float: left;
@@ -3835,13 +3842,20 @@ body .search-modal .close:hover {
   align-self: right;
   align-content: flex-end;
 }
+.color-navy{
+  /* color: #000080; */
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  /* background:linear-gradient(250deg, #1273eb 30%, #03228f 100%); */
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .mr-40{
   margin-right: 40px;
 }
 .rs-banner.style3 {
   /* background-image: linear-gradient(100deg, #03228f 34%, #0e73e4 100%); */
   background: url(assets/images/banner/style4/YOZY-BANNER1.png);
-  
+  margin-top: 70px;
   border-radius: 0px 0px 0px 270px;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   /* padding: 380px 0px 290px 0px; */
